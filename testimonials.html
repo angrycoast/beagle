@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+
+<style>
+
+a:link {color:#0070D1;}      /* unvisited link */
+a:visited {color:#0070D1;}  /* visited link */
+a:hover {color:#0070D1;}  /* mouse over link */
+a:active {color:#0070D1;}  /* selected link */
+
+body {
+background-color:#000000; }
+
+.logotable { 
+background-image:url('backmod.jpg');
+text-align:center;
+margin:auto;
+width:40%;
+height:auto;  
+font-family:arial;
+font-size:17pt;
+color:#592D12; }
+
+.hrhrule {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
+
+.logo {
+font-family:'Berkshire Swash';
+font-size:82px;
+color:#592D12;
+text-align:left }
+
+</style>
+
+<body class="logotable">
+
+<h1>Send Us Your Feedback!</h1>
+<form action="send_mail.php" method="post">
+<table>
+<tr>
+<td>Email Adress:</td>
+<td>
+<input type="text" name="email_address" value="" maxlength="100" />
+</td>
+</tr>
+<tr>
+<td>Comments:</td>
+<td>
+<textarea rows="10" cols="50" name="comments"></textarea>
+</td>
+</tr>
+<tr><td>&nbsp;</td>
+<td>
+<input type="submit" value="Submit" />
+</td>
+</tr>
+</table>
+</form>
+
+</body>
+
+</body>
+
+</html>
